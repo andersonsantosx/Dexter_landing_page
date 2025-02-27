@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+#tittle {
+    color: brown;
+    font-family: danger_font;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sangue_tittle {
+    display: flex;
+    position: absolute;
+    
+}
