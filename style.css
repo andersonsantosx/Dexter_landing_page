@@ -1,6 +1,10 @@
 * {
+    
     margin: 0;
 }
+
+
+
 #tittle {
     color: brown;
     font-family: danger_font;
@@ -10,7 +14,26 @@
 }
 
 .sangue_tittle {
+    display: none;
+}
+
+#content {
     display: flex;
-    position: absolute;
+    justify-content: center;
+}
+
+#box_left {
+    background-color: aqua;
+    height: 500px;
+    width: 30%;
+    border: 5px solid green;
     
+}
+
+#box_right {
+    background-color: blue;
+    height: 500px;
+    width: 30%;
+    border: 5px solid red;
+
 }
